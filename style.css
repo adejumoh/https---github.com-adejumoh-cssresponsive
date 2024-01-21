@@ -1,0 +1,38 @@
+.box {
+    text-align: center;
+    background-color: Red;
+    color: white;
+    font-size: 60px;
+    
+}
+
+@media (max-width:240px) {
+    #box1{
+        display: block;
+        background-color: Orange;
+    }
+}
+@media (min-width: 241px) and (max-width: 320px) {
+    #box2{
+        display: block;
+        background-color: rgb(76, 230, 76);
+    }
+}
+@media (min-width: 321px) and (max-width: 480px) {
+    #box3{
+        display: block;
+        background-color: blue;
+    }
+}
+@media (min-width:481px) and (max-width: 768px) {
+    #box4{
+        display: block;
+        background-color: violet;
+    }
+}
+@media (min-width:769px) {
+    #box5{
+        display: block;
+        background-color: rgb(130, 168, 238);
+    }
+}
